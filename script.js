@@ -6,7 +6,7 @@ function checkNumber() {
     let gussedNumber = parseInt(userInputEl.value);
     if (gussedNumber === randomNumberGenerateEl) {
         gameResultEl.textContent = "Congratulations! You got it right";
-        gameResultEl.style.backgroundColor = "#green";
+        gameResultEl.style.backgroundColor = "green";
     }
     else if (gussedNumber > randomNumberGenerateEl) {
         gameResultEl.textContent = "Too High! Tyr Again.";
